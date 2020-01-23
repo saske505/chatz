@@ -1,19 +1,33 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8" />
-        <title><% block title %>Let's Chat<% endblock %></title>
-        <meta name="description" content="" />
-        <link rel="icon" type="image/png" href="./media/favicon.ico" />
-        <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0" />
-        <% block css %><% endblock %>
-        <$ 'vendor' | css | safe $>
-        <$ 'style' | css | safe $>
-        <$ 'vendor' | js | safe $>
-        <% block js %><% endblock %>
-    </head>
-    <body class="<% block class %><% endblock %>" <% block attributes %><% endblock %>>
-        <% block body %><% endblock %>
-        <% block templates %><% endblock %>
-    </body>
+
+<head>
+    <meta charset="utf-8" />
+    <title>
+        <% block title %>Let's Chat
+            <% endblock %>
+    </title>
+    <meta name="description" content="" />
+    <link rel="icon" type="image/png" href="./media/favicon.ico" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <% block css %>
+        <% endblock %>
+            <$ 'vendor' | css | safe $>
+                <$ 'style' | css | safe $>
+                    <$ 'vendor' | js | safe $>
+                        <% block js %>
+                            <% endblock %>
+</head>
+
+<body class="<% block class %><% endblock %>" <% block attributes %>
+    <% endblock %>>
+        <% block body %>
+            <% endblock %>
+                <% block templates %>
+                    <% endblock %>
+                        <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+</body>
+
 </html>
