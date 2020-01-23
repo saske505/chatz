@@ -2,7 +2,7 @@
 # Let's Chat Built-in Defaults
 #
 
-env: production # development / production
+env: development # development / production
 
 http:
   enable: true
@@ -31,10 +31,10 @@ xmpp:
     cert: ./server.crt
 
 database:
-  uri: mongodb://heroku_n4nfsn20:drhsr915s7gskfj0edpd2d5c6g@ds049661.mlab.com:49661/heroku_n4nfsn20
+  uri: mongodb://localhost/letschat
 
 secrets:
-  cookie: 93b1e324a65d59cf57490f9d096e2acaa383eaddd34a0f622a763d147497f812
+  cookie: secretsauce
 
 files:
   enable: true
