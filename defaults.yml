@@ -18,7 +18,7 @@ https:
 
 xmpp:
   enable: false
-  roomCreation: false
+  roomCreation: true
   debug:
     handled: false
     unhandled: false
@@ -31,13 +31,13 @@ xmpp:
     cert: ./server.crt
 
 database:
-  uri: mongodb://localhost/letschat
+  uri: mongodb://heroku_n4nfsn20:drhsr915s7gskfj0edpd2d5c6g@ds049661.mlab.com:49661/heroku_n4nfsn20
 
 secrets:
-  cookie: secretsauce
+  cookie: 93b1e324a65d59cf57490f9d096e2acaa383eaddd34a0f622a763d147497f812
 
 files:
-  enable: false
+  enable: true
   provider: local
   maxFileSize: 100000000
   restrictTypes: true
@@ -58,7 +58,7 @@ auth:
     passwordRegex: ^.{8,64}$
 
 private:
-  enable: false
+  enable: true
   roster: online # online / all
   expire: 360 # false or number of minutes
 
@@ -71,7 +71,7 @@ giphy:
   apiKey: dc6zaTOxFJmzC
 
 rooms:
-  private: false
+  private: true
 
 i18n:
   locale: en
