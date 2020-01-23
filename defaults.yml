@@ -2,11 +2,11 @@
 # Let's Chat Built-in Defaults
 #
 
-env: development # development / production
+env: production # development / production
 
 http:
   enable: true
-  host:
+  host: rubysupschat
   port: 5000
 
 https:
