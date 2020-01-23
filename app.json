@@ -1,7 +1,7 @@
 {
-    "name": "Let's Chat",
-    "description": "Self-hosted chat app for small teams",
-    "repository": "https://github.com/sdelements/lets-chat",
+    "name": "rubysupschat",
+    "description": "rubysupschat",
+    "repository": "https://git.heroku.com/rubysupschat.git",
     "logo": "http://i.imgur.com/eXTLHNN.png",
     "keywords": [
         "lets",
