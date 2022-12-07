@@ -98,7 +98,7 @@
     "eslint": "^6.5.1",
     "grunt": "~0.4.5",
     "grunt-bower": "^0.21.2",
-    "grunt-bower-task": "~0.4.0",
+    "grunt-bower-task": "~0.6.2",
     "grunt-cli": "^1.2.0"
   }
 }
